@@ -7,6 +7,8 @@ import { LoginComponent } from './components/login/login.component';
 import { HeaderComponent } from './components/main-layout/header/header.component';
 import { HomeComponent } from './components/home/home.component';
 import { SidebarComponent } from './components/main-layout/sidebar/sidebar.component';
+import { RegisterAccountComponent } from './components/register-account/register-account.component';
+import { PresidiarioListComponent } from './components/presidiario-list/presidiario-list.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +16,9 @@ import { SidebarComponent } from './components/main-layout/sidebar/sidebar.compo
     LoginComponent,
     HeaderComponent,
     HomeComponent,
-    SidebarComponent
+    SidebarComponent,
+    RegisterAccountComponent,
+    PresidiarioListComponent
   ],
   imports: [
     BrowserModule,

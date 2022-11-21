@@ -3,6 +3,8 @@ import { CommonModule } from '@angular/common';
 import { Router, RouterModule, Routes } from '@angular/router';
 import { LoginComponent } from './components/login/login.component';
 import { HomeComponent } from './components/home/home.component';
+import { RegisterAccountComponent } from './components/register-account/register-account.component';
+import { PresidiarioListComponent } from './components/presidiario-list/presidiario-list.component';
 
 
 const routes: Routes = [
@@ -11,8 +13,16 @@ const routes: Routes = [
     component:LoginComponent
   },
   {
+    path:'register',
+    component:RegisterAccountComponent
+  },
+  {
     path:'home',
     component:HomeComponent
+  },
+  {
+    path:'presidiario',
+    component:PresidiarioListComponent
   }
 ];
 
