@@ -5,6 +5,7 @@ import { LoginComponent } from './components/login/login.component';
 import { HomeComponent } from './components/home/home.component';
 import { RegisterAccountComponent } from './components/register-account/register-account.component';
 import { PresidiarioListComponent } from './components/presidiario-list/presidiario-list.component';
+import { PresidiarioDetailComponent } from './components/presidiario-detail/presidiario-detail.component';
 
 
 const routes: Routes = [
@@ -23,7 +24,11 @@ const routes: Routes = [
   {
     path:'presidiario',
     component:PresidiarioListComponent
-  }
+  },
+  {
+    path:'presidiario-view',
+    component:PresidiarioDetailComponent
+  },
 ];
 
 @NgModule({

@@ -9,6 +9,7 @@ import { HomeComponent } from './components/home/home.component';
 import { SidebarComponent } from './components/main-layout/sidebar/sidebar.component';
 import { RegisterAccountComponent } from './components/register-account/register-account.component';
 import { PresidiarioListComponent } from './components/presidiario-list/presidiario-list.component';
+import { PresidiarioDetailComponent } from './components/presidiario-detail/presidiario-detail.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { PresidiarioListComponent } from './components/presidiario-list/presidia
     HomeComponent,
     SidebarComponent,
     RegisterAccountComponent,
-    PresidiarioListComponent
+    PresidiarioListComponent,
+    PresidiarioDetailComponent
   ],
   imports: [
     BrowserModule,
